@@ -88,7 +88,7 @@ const ContactForm = () => {
     notification = {
       status: 'error',
       title: 'Error!',
-      message: 'Message sent successfully!',
+      message: requestError || 'An error has ocurred! Try again.',
     };
   }
 
